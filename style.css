@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+#title{
+    margin-bottom: 20px;
+    font-size: 300%;
+}
+#topic-title{
+    font-size: 200%;
+    margin-bottom: 20px;
+}
+
+.pick, .pick-description{
+    display: block;
+}
+.pick-description{
+    height: 200px;
+}
+#player-content{
+    margin-top: 10%;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+.center-items{
+    text-align: center;
+    margin: 0 auto;
+}
+input,textarea{
+    width: 250px;
+}
+#pick-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#form-flex{
+    display: flex;
+    justify-content: space-around;
+}

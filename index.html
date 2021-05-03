@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="player-content">
+    <h1 class="center-items" id="title"> Marco's Guessing Game</h1>
+    <h2 class="center-items" id="topic-title">Today's topic is <span id="topic">TOPIC</span>!</h2>
+    <p class="center-items">Player <span id="player-number">1</span>: Choose 3 <span id="topic-picks">PICKS</span> and attempt to describe them.</p>
+<div id="form-flex">
+    <div class="form">
+        <input type="text" class="pick center-items" placeholder="First Pick">
+        <textarea class="pick-description"  class="center-items" placeholder="First Pick Description"></textarea>
+    </div>
+
+    <div class="form">
+        <input type="text" class="pick center-items" placeholder="First Pick">
+        <textarea class="pick-description center-items" placeholder="First Pick Description"></textarea>
+        <button id="submit-pick">Submit</button>
+
+    </div>
+
+    <div class="form">
+        <input type="text" class="pick center-items" placeholder="First Pick">
+        <textarea class="pick-description center-items" placeholder="First Pick Description"></textarea>
+
+    </div>
+   </div>
+    </div>
+
+    <div id="useValues"></div>
+<script src="app.js"></script>
+</body>
+</html>
