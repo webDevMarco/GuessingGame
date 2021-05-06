@@ -41,3 +41,11 @@ input,textarea{
     display: flex;
     justify-content: space-around;
 }
+.hide{
+    display: none;
+}
+
+#guessing-content{
+    border: 2px solid red;
+    height: 500px;
+}
